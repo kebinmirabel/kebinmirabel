@@ -1,16 +1,27 @@
-## Hi there 👋
+```console
+$ whoami
+Kevin Hans Aurick Mirabel
 
-<!--
-**kebinmirabel/kebinmirabel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+$ neofetch
+OS: HumanOS 2026.08.04-experimental
+Uptime: 22 years
+Occupation: Software Engineer
+Capstone Project: Calculator.cpp
 
-Here are some ideas to get you started:
+$ hobby --list
+• Music
+• Breaking things to understand how they work
+  (putting them back together sold separately)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+$ cat stats.json
+{
+  "coffee": "required",
+  "amount_of_open_tabs": "yes",
+  "favorite_activity": "Refactoring readable code until nobody understands it",
+  "bugs_fixed": "≈ bugs_created"
+}
+
+$ sudo make me a senior
+[sudo] password for kevin:
+Sorry, try again.
+```
