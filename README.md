@@ -10,7 +10,7 @@ $ whoami
 Kevin Hans Aurick Mirabel
 
 $ neofetch
-OS: HumanOS 2026.08.04-experimental
+OS: HumanOS 2003.08.04-experimental
 Uptime: 22 years
 Occupation: Software Engineer
 Capstone Project: Calculator.cpp
