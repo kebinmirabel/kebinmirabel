@@ -15,7 +15,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 4
+          fetch-depth: 0
+          persist-credentials: true
 
       - uses: actions/setup-python@v5
         with:
@@ -35,6 +36,8 @@ jobs:
 
           git commit -m "Update uptime"
 
-          # Sync with latest remote to avoid non-fast-forward push failures
+          # Ensure we are on the correct branch before pushing
+          git fetch origin main
+          git checkout -B main
           git pull --rebase origin main
-          git push origin main
+          git push origin HEAD:main
