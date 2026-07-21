@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-readme
+  cancel-in-progress: true
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -39,5 +43,5 @@ jobs:
           # Ensure we are on the correct branch before pushing
           git fetch origin main
           git checkout -B main
-          git pull --rebase origin main
-          git push origin HEAD:main
+          git pull --rebase origin main || true
+          git push origin HEAD:main || true
