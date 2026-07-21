@@ -11,7 +11,7 @@ Kevin Hans Aurick Mirabel
 
 $ neofetch
 OS: HumanOS 2003.08.04-experimental
-Uptime:
+Uptime: 22 Years
 Occupation: 15-Year Defending Jollibee Chickenjoy Eating Champion
 Capstone Project: Calculator-v2
 Portfolio: localhost:8000
