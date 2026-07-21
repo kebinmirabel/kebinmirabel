@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 4
 
       - uses: actions/setup-python@v5
         with:
@@ -30,7 +30,11 @@ jobs:
 
           git add README.md
 
-          git diff --cached --quiet || git commit -m "Update uptime"
+          # Exit cleanly if nothing changed
+          git diff --cached --quiet && exit 0
 
+          git commit -m "Update uptime"
+
+          # Sync with latest remote to avoid non-fast-forward push failures
           git pull --rebase origin main
-          git push
+          git push origin main
