@@ -30,9 +30,9 @@ with open("README.md", encoding="utf8") as f:
 import re
 
 readme = re.sub(
-    r"<!--UPTIME-->.*",
-    f"<!--UPTIME-->{uptime}",
-    readme,
+    r"Uptime: .*",
+    f"Uptime: {uptime}",
+    readme
 )
 
 with open("README.md", "w", encoding="utf8") as f:
