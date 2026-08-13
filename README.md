@@ -11,7 +11,7 @@ Kevin Hans Aurick Mirabel
 
 $ neofetch
 OS: HumanOS 2003.08.04-experimental
-Uptime: 23 years, 0 months, 8 days and a partridge in a pear tree.
+Uptime: 23 years, 0 months, 9 days and a partridge in a pear tree.
 Occupation: 15-Year Defending Jollibee Chickenjoy Eating Champion
 Capstone Project: Calculator-v2
 Portfolio: localhost:8000
